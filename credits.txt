@@ -1,0 +1,13 @@
+icon: https://favicon.io/emoji-favicons/bicycle
+
+colors: https://www.colorhunt.co/palette/1f46903a5ba0ffa500ffe5b4
+orange: #FFA500, rgb(255, 165, 0)
+dark navy: #1F4690, rgb(31, 70, 144)
+light navy: #3A5BA0, rgb(58, 91, 160)
+beige: #FFE5B4, rgb(255, 229, 180)
+
+Photos:
+hero: https://unsplash.com/photos/i_c1Rj0fAmo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+tulips: https://unsplash.com/photos/eHlVZcSrjfg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+bike: https://unsplash.com/photos/eSsYMJ7ucsU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+drinks: https://unsplash.com/photos/xCsalofaxw4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

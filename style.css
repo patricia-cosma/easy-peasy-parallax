@@ -1,0 +1,98 @@
+@import url(https://fonts.google.com/share?selection.family=Open%20Sans:ital,wght@0,400;0,500;1,400);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    position: absolute;
+    display: flex;
+    top: 0;
+    margin: 20px;
+    justify-content: center;
+}
+ul li {
+    padding: 0 50px 0 50px;
+}
+a {
+    color: #FFE5B4;
+}
+a:hover {
+    color: #FFA500;
+}
+h2 {
+    font-size: 2rem;
+    /* font-weight: 700; */
+    background-color: #FFA500;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+p {
+    width: 40%;
+    color: white;
+    background-color: #1F4690;
+    font-size: 1.2rem;
+    font-weight: 500; /*fyi note: if the font-size is too small, some fonts may not be able to apply the font-weight*/
+}
+section:nth-child(even) {
+    background-color: #FFE5B4;
+    height: 100px;
+}
+section:nth-child(odd) {
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+section:nth-child(1) {
+    background-image: url(/img/hero.jpg);
+    height: 100vh;
+}
+section:nth-child(3) {
+    background-image: url(/img/tulips.jpg);
+}
+section:nth-child(5) {
+    background-image: url(/img/bike.jpg);
+}
+section:nth-child(7) {
+    background-image: url(/img/drinks.jpg);
+}
+section:nth-child(9) {
+    background-image: url(/img/train.jpg);
+}
+#button {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99; /*index so high to be sure it does not overlap*/
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    background-color: #FFE5B4;
+    color: #1F4690;
+    cursor: pointer; /*add a mouse pointer when hover*/
+    padding: 5px;
+    font-size: 20px;
+}
+#button:hover {
+    background-color: #1F4690;
+    color: #FFE5B4;
+}
