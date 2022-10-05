@@ -1,14 +1,14 @@
-var button = document.getElementById("button"); /*get the button*/
+let myButton = document.getElementById("button"); /*get the button*/
 
 //button will show up after scrolling 20px
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        button.style.display = "block";
+        myButton.style.display = "block";
     }
     else {
-        button.style.display = "none";
+        myButton.style.display = "none";
     }
 }
 
