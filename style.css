@@ -91,6 +91,7 @@ section:nth-child(9) {
     cursor: pointer; /*add a mouse pointer when hover*/
     padding: 5px;
     font-size: 20px;
+    display: none;
 }
 #button:hover {
     background-color: #1F4690;
